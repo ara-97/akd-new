@@ -3,11 +3,10 @@ import { renderToString } from 'react-dom/server'
 import { StaticRouter } from "react-router-dom";
 import { Provider } from 'react-redux'
 
-import configureStore from './redux/configureStore'
-import template from '../views/template';
-import data from '../assets/data.json';
-import App from './components/App'
-
+import configureStore from '../Redux/ConfigureStore'
+import template from '../../views/template';
+import data from '../../assets/data.json';
+import App from '../Containers/App'
 
 var express = require('express');
 var app = express();

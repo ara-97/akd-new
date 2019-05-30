@@ -1,5 +1,5 @@
-import Home from "./components/App";
-import About from "./components/About";
+import Home from "./Containers/App";
+import About from "./Containers/About";
 
 export default [
     {
