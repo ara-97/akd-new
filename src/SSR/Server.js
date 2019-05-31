@@ -48,13 +48,3 @@ app.get('/*', (req, res) => {
     res.setHeader('Cache-Control', 'assets, max-age=604800')
     res.send(response);
 });
-
-app.get('/exit', (req, res) => {
-    if (process.env.PORT) {
-        res.send("Sorry, the server denies your request")
-    } else {
-        res.send("shutting down")
-        process.exit(0)
-    }
-
-});
