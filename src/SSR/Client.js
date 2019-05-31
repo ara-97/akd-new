@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM, { hydrate } from 'react-dom'
 import { Provider } from 'react-redux'
-import configureStore from './redux/configureStore'
-import App from './components/App'
+import configureStore from '../Redux/ConfigureStore'
+import App from '../Containers/App';
 import { BrowserRouter as Router } from "react-router-dom";
 // Read the state sent with markup
 const state = window.__STATE__;

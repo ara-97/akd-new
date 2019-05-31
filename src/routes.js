@@ -1,15 +1,9 @@
-import Home from "./components/App";
-import About from "./components/About";
+import App from "./Containers/App";
 
 export default [
     {
         path: "/",
-        component: Home,
-        exact: true,
-    },
-    {
-        path: "/about",
-        component: About,
+        component: App,
         exact: true,
     }
 ];
