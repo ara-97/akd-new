@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { Switch, Route } from "react-router-dom";
-import Routes from "../Routes";
+import Routes from '../Routes';
+
 
 class App extends Component {
 

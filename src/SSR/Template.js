@@ -13,17 +13,19 @@ function template(title, initialState = {}, content = "") {
   let page = `<!DOCTYPE html>
               <html lang="en">
               <head>
-                <meta charset="utf-8">
+                <meta charset="utf-8" />
                 <title> ${title} </title>
-                <link href="assets/style.css" rel="stylesheet">
+                <link href="assets/style.css" rel="stylesheet" />
+                <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+                />
+                <meta name="theme-color" content="#000000" />
               </head>
               <body>
-                <div class="content">
-                   <div id="app" class="wrap-inner">
-                      <!--- magic happens here -->  ${content}
+                   <div id="app">
+                     ${content}
                    </div>
-                </div>
-
                   ${scripts}
               </body>
               `;
