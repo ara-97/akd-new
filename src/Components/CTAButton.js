@@ -15,9 +15,13 @@ const CTAWrapper = styled.div`
 const ButtonWrapper = styled.div`
 	height: 50px;
     width: 325px;
+    cursor: pointer;
     margin: 0 auto;
 	border-radius: 8px;
 	background-color: #30BE76;
+    &:hover{
+        background: #1BAF64;
+    }
 `
 
 const CTAText = styled.div`
