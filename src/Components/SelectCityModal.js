@@ -38,6 +38,7 @@ const CityDropdownSelect = styled.div`
     margin: 20px 0;
     background-color: #FFFFFF;
     display: grid;
+    cursor: pointer;
     grid-template-columns: 4fr 1fr;
     box-shadow: 0px 6px 13px rgb(229,231,231);
 `
@@ -45,7 +46,7 @@ const CityDropdownSelect = styled.div`
 const CityName = styled.div`
 	color: #030F09;
 	font-family: Inter;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 500;
     line-height: 50px;
     padding-left: 15px;

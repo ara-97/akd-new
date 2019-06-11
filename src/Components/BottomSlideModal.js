@@ -68,6 +68,7 @@ const Heading = styled.div`
 const CloseIcon = styled.img`
     height: 20px;
     width: 20px;
+    cursor: pointer;
 `
 
 const CloseIconWrapper = styled.div`
